@@ -1,0 +1,9 @@
+E:\GeeksGames\GeeksGames.Core\bin\Debug\GeeksGames.Core.dll
+E:\GeeksGames\GeeksGames.Core\bin\Debug\GeeksGames.Core.pdb
+E:\GeeksGames\GeeksGames.Core\bin\Debug\Cirrious.CrossCore.dll
+E:\GeeksGames\GeeksGames.Core\bin\Debug\Cirrious.MvvmCross.dll
+E:\GeeksGames\GeeksGames.Core\bin\Debug\Cirrious.MvvmCross.Localization.dll
+E:\GeeksGames\GeeksGames.Core\bin\Debug\Newtonsoft.Json.dll
+E:\GeeksGames\GeeksGames.Core\bin\Debug\Newtonsoft.Json.xml
+E:\GeeksGames\GeeksGames.Core\obj\Debug\GeeksGames.Core.dll
+E:\GeeksGames\GeeksGames.Core\obj\Debug\GeeksGames.Core.pdb

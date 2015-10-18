@@ -1,0 +1,12 @@
+﻿<Application
+    x:Class="GeeksGames.win.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converter="using:GeeksGames.win.Convertor"
+    xmlns:local="using:GeeksGames.win">
+    <Application.Resources>
+        <converter:CardTypeToImageConvertor x:Key="CardTypeToImageConvertor"></converter:CardTypeToImageConvertor>
+    </Application.Resources>
+
+</Application>
+

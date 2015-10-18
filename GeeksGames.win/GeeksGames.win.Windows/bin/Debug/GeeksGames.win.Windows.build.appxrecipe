@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-T4I3NQ9</Machine>
+    <WindowsUser>SharmaG</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>78b686c4-8194-4cb9-8fb5-712e5bab43d7</PackageIdentityName>
+    <IntermediateOutputPath>E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\bin\Debug\GeeksGames.win.Windows.exe">
+      <PackagePath>GeeksGames.win.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\win81\Cirrious.CrossCore.dll">
+      <PackagePath>Cirrious.CrossCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\win81\Cirrious.CrossCore.WindowsCommon.dll">
+      <PackagePath>Cirrious.CrossCore.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\win81\Cirrious.MvvmCross.dll">
+      <PackagePath>Cirrious.MvvmCross.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\win81\Cirrious.MvvmCross.Localization.dll">
+      <PackagePath>Cirrious.MvvmCross.Localization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\win81\Cirrious.MvvmCross.WindowsCommon.dll">
+      <PackagePath>Cirrious.MvvmCross.WindowsCommon.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.Core\bin\Debug\GeeksGames.Core.dll">
+      <PackagePath>GeeksGames.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\packages\Newtonsoft.Json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\Back.png">
+      <PackagePath>Assets\Images\Back.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\Cards.png">
+      <PackagePath>Assets\Images\Cards.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\CardsS.png">
+      <PackagePath>Assets\Images\CardsS.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\Club.png">
+      <PackagePath>Assets\Images\Club.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\Correct.png">
+      <PackagePath>Assets\Images\Correct.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\Diamond.png">
+      <PackagePath>Assets\Images\Diamond.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\Heart.png">
+      <PackagePath>Assets\Images\Heart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\home-bg.png">
+      <PackagePath>Assets\Images\home-bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\MobileHome.png">
+      <PackagePath>Assets\Images\MobileHome.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\Spade.png">
+      <PackagePath>Assets\Images\Spade.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\tictac.png">
+      <PackagePath>Assets\Images\tictac.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\Seq.png">
+      <PackagePath>Assets\Images\Seq.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\Star.png">
+      <PackagePath>Assets\Images\Star.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Images\Wrong.png">
+      <PackagePath>Assets\Images\Wrong.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\SmallLogo.scale-80.png">
+      <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Square310x310Logo.scale-140.png">
+      <PackagePath>Assets\Square310x310Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Square310x310Logo.scale-180.png">
+      <PackagePath>Assets\Square310x310Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Square310x310Logo.scale-80.png">
+      <PackagePath>Assets\Square310x310Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Square70x70Logo.scale-140.png">
+      <PackagePath>Assets\Square70x70Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Square70x70Logo.scale-180.png">
+      <PackagePath>Assets\Square70x70Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Square70x70Logo.scale-80.png">
+      <PackagePath>Assets\Square70x70Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Wide310x150Logo.scale-140.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Wide310x150Logo.scale-180.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Wide310x150Logo.scale-80.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Sound\applause-01.wav">
+      <PackagePath>Assets\Sound\applause-01.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\Assets\Sound\BUZZER.wav">
+      <PackagePath>Assets\Sound\BUZZER.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\bin\Debug\GeeksGames.win.Windows.xr.xml">
+      <PackagePath>GeeksGames.win.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\bin\Debug\Views\CardWarView.xbf">
+      <PackagePath>Views\CardWarView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\bin\Debug\Views\FirstView.xbf">
+      <PackagePath>Views\FirstView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\bin\Debug\Views\PredictionView.xbf">
+      <PackagePath>Views\PredictionView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\bin\Debug\Views\SequenceSeriesView.xbf">
+      <PackagePath>Views\SequenceSeriesView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\bin\Debug\Views\TicTacToeView.xbf">
+      <PackagePath>Views\TicTacToeView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

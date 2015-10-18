@@ -1,0 +1,57 @@
+﻿<views:MvxWindowsPage
+    x:Class="GeeksGames.win.Views.PredictionView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GeeksGames.win.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="using:Cirrious.MvvmCross.WindowsCommon.Views"
+    xmlns:convertor="using:GeeksGames.win.Convertor"
+    mc:Ignorable="d">
+
+
+    <views:MvxWindowsPage.Resources>
+        <convertor:CardTypeToImageConvertor x:Key="CardTypeToImageConvertor"></convertor:CardTypeToImageConvertor>
+
+        <DataTemplate x:Key="CardTemplate">
+            <StackPanel Height="200" Width="150" Background="White" Margin="15,0,0,0">
+                <TextBlock Text="{Binding CardNumber,Mode=OneWay}" Foreground="Black" FontSize="36"  Margin="5,0,0,0"></TextBlock>
+                <Image Source="{Binding CardType, Converter={StaticResource CardTypeToImageConvertor}}" Height="100" Width="90"></Image>
+                <TextBlock Text="{Binding CardNumber,Mode=OneWay}" Foreground="Black" FontSize="36" HorizontalAlignment="Right"  Margin="0,0,5,0"></TextBlock>
+            </StackPanel>
+        </DataTemplate>
+    </views:MvxWindowsPage.Resources>
+
+    <Grid Background="#22B14C">
+        <Image Source="../Assets/Images/home-bg.png" VerticalAlignment="Bottom"></Image>
+        <Grid VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Margin="15,15,15,15" Orientation="Horizontal">
+                <Image Source="../Assets/Images/Back.png" Width="50" Height="50" VerticalAlignment="Top" Tapped="GoBack"></Image>
+                <TextBlock Text="Prediction" FontSize="36" FontWeight="Bold" Foreground="Black" Margin="15,0,0,0"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Height="120" HorizontalAlignment="Right" Margin="15,15,15,15" Grid.Column="1">
+                <TextBlock Text="Moonfrog Labs" FontSize="36" FontWeight="Bold" Foreground="Black"></TextBlock>
+                <TextBlock Text="Geeks &amp; Games" FontSize="28" FontWeight="Bold" Foreground="Black" Margin="25,10,0,0"></TextBlock>
+            </StackPanel>
+        </Grid>
+
+        <Grid Margin="90,120,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Name="GetCardsBtn" Content="Get Cards" VerticalAlignment="Top" Click="GetCards" Grid.Row="0" Margin="15,0,0,0"></Button>
+            <!--<GridView Name="cardgrid" Grid.Row="1" Margin="0,15,0,0" ScrollViewer.VerticalScrollMode="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollMode="Enabled" Height="250" ItemsSource="{Binding CardsToShow}" ItemTemplate="{StaticResource CardTemplate}">
+                
+            </GridView>-->
+            <ListView Margin="90,120,0,0" ItemsSource="{Binding CardsToShow.CardsSheet}" ItemTemplate="{StaticResource CardTemplate}"> </ListView>
+            
+        </Grid>
+    </Grid>
+
+
+</views:MvxWindowsPage>

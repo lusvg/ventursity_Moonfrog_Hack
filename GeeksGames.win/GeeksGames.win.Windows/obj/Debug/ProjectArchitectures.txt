@@ -1,0 +1,2 @@
+E:\GeeksGames\GeeksGames.Core\GeeksGames.Core.csproj;neutral
+E:\GeeksGames\GeeksGames.win\GeeksGames.win.Windows\GeeksGames.win.Windows.csproj;neutral
